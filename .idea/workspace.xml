@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="341e9ac4-085e-45f1-aab5-b0fb4bfc5e54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/ativ/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/ativ/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/ativ/repository/LoadDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/src/main/java/com/ativ/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/ativ/ConsumerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/ativ/ConsumerApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/ativ/controller/ConsumerControllerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/ativ/controller/ConsumerControllerClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/ConsumerApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/controller/ConsumerControllerClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/ativ/controller/ConsumerControllerClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/com/ativ/controller/ConsumerControllerClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/ativ/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/com/ativ/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/ativ/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/com/ativ/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/target/classes/ProducerApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/target/classes/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/target/classes/model/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/ativ/ProducerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/com/ativ/ProducerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/producer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/target/classes/com/ativ/ProducerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/producer/target/classes/com/ativ/ProducerApp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/producer/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/producer/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -67,8 +70,9 @@
       <recent name="com.ativ.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\dev\employee\producer\src\main\java" />
       <recent name="C:\dev\employee\producer\src\main\resources" />
+      <recent name="C:\dev\employee\eureka\src\main\resources" />
+      <recent name="C:\dev\employee\producer\src\main\java" />
       <recent name="C:\dev\employee\consumer\src\main\resources" />
       <recent name="C:\dev\employee\consumer\src\main\java" />
     </key>
@@ -84,15 +88,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerControllerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk1.8.0_231" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.ativ.controller.ConsumerControllerClient" />
-      <module name="consumer" />
+      <option name="MAIN_CLASS_NAME" value="com.ativ.EurekaServerApplication" />
+      <module name="eureka" />
       <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ativ.controller.*" />
+          <option name="PATTERN" value="com.ativ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +117,13 @@
     <list>
       <item itemvalue="Application.ConsumerApp" />
       <item itemvalue="Application.ProducerApp" />
-      <item itemvalue="Application.ConsumerControllerClient" />
+      <item itemvalue="Application.EurekaServerApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ConsumerApp" />
         <item itemvalue="Application.ProducerApp" />
-        <item itemvalue="Application.ConsumerControllerClient" />
+        <item itemvalue="Application.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -153,10 +157,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1577245384362" />
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577297978391">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577302875056">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577297978391" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577302875056" />
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1577295319095">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -165,26 +169,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="483" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1577246268961" />
-    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1577294520441">
+    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1577302005546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577294520441" />
-    <state width="1493" height="122" key="GridCell.Tab.0.bottom" timestamp="1577301333111">
+    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577302005546" />
+    <state width="1493" height="292" key="GridCell.Tab.0.bottom" timestamp="1577303449699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="122" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577301333111" />
-    <state width="1493" height="122" key="GridCell.Tab.0.center" timestamp="1577301333111">
+    <state width="1493" height="292" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577303449699" />
+    <state width="1493" height="292" key="GridCell.Tab.0.center" timestamp="1577303449698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="122" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577301333111" />
-    <state width="1493" height="122" key="GridCell.Tab.0.left" timestamp="1577301333111">
+    <state width="1493" height="292" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577303449698" />
+    <state width="1493" height="292" key="GridCell.Tab.0.left" timestamp="1577303449697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="122" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577301333111" />
-    <state width="1493" height="122" key="GridCell.Tab.0.right" timestamp="1577301333111">
+    <state width="1493" height="292" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577303449697" />
+    <state width="1493" height="292" key="GridCell.Tab.0.right" timestamp="1577303449698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="122" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577301333111" />
+    <state width="1493" height="292" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577303449698" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1577296811035">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
