@@ -1,18 +1,41 @@
 package com.ativ.controller;
 
 import com.ativ.model.Employee;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import com.ativ.repository.EmployeeRepository;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
 public class TestController {
-  private final AtomicLong counter = new AtomicLong();
+  private final EmployeeRepository repository;
 
-  @RequestMapping(value = "/employee", method = RequestMethod.GET)
+  TestController(EmployeeRepository repository){
+    this.repository = repository;
+  }
+
+  @GetMapping("/employees")
+  List<Employee> all(){
+    return repository.findAll();
+  }
+
+  @PostMapping("/employees")
+  Employee newEmployee(@RequestBody Employee newEmplyee){
+    return repository.save(newEmplyee);
+  }
+
+  @GetMapping("/employees/{id}")
+  Employee one(@PathVariable Long id){
+    return repository.findOne(id);
+  }
+
+  @DeleteMapping("/employees/{id}")
+  void deleteEmployee(@PathVariable Long id){
+    repository.delete(id);
+  }
+
+  /*@RequestMapping(value = "/employee", method = RequestMethod.GET)
   public Employee firstPage(
       @RequestParam(value = "name", defaultValue = "employeeName") String name,
       @RequestParam(value = "designation", defaultValue = "employee") String designation,
@@ -24,5 +47,5 @@ public class TestController {
     emp.setEmpId(counter.incrementAndGet());
     emp.setSalary(salary);
     return emp;
-  }
+  }*/
 }
